@@ -1,0 +1,166 @@
+
+
+
+body{
+    background-color: black;
+    text-align: center;
+  
+}
+.back{
+    background-image: url("back.jpg");
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-attachment: fixed;
+    break-inside: auto;
+    height: 80vh;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    top: 0;
+    margin-left: none;
+    background-color:black ;
+    background-repeat: no-repeat;
+  
+
+}
+.navtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+   
+}
+nav img{
+    color: black;
+    position: relative;
+    width: 114px;
+    z-index: 10;
+    
+}
+.box{
+    margin-top: -99px;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-family: monospace;
+    gap: 10px;
+    
+    text-align: center;
+}
+.box>  :first-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+     color: white;
+    opacity: 100%;
+    background-color: rgba(0, 0, 0, 0.028);
+    border-radius: 15px;
+    padding: 4px;
+}
+.box> :nth-child(2){
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    opacity: 100%;
+    background-color: rgba(0, 0, 0, 0.007);
+    border-radius: 15px;
+    padding: 4px;
+}
+.box> :nth-child(3){
+    font-size: 20px;
+    font-weight: bold;
+     color: #ffffff;
+    opacity: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    padding-top: -3px;
+}
+
+
+empty{
+    height: 14px;
+     width: 100%;
+     display: flex;
+     justify-items: start;
+    margin-top: 117px;
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    
+}
+.btnred{
+ 
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-right: 9px;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+   
+    border-radius: 5px;
+}
+.btnnom{
+text-align: center;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-right: 9px;
+    
+    background-color: rgba(255, 81, 81, 0.081);
+    color: white;
+    
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+input{
+    border-radius: 6px;
+    border: 2px groove rgba(55, 55, 55, 0);
+    padding: 9px;
+    background-color: rgba(0, 0, 0, 0.358);
+    margin-top: -600px;
+    color: white;
+}
+
+.inp{
+    margin-top: -140px;
+    position: relative;
+    
+}
+.first{
+   color: aliceblue;
+  display: flex;
+  justify-content: end;
+  
+  margin: auto;
+  
+    
+}
+.ftext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.image1{
+   width: 70vw;
+   position: relative;
+   z-index: 10;
+
+}
+.image1 video{
+    width: 18vw;
+    position: absolute;
+    top: 45px;
+    right: 270px;
+    opacity: 0.24;
+    background-color: black;
+}
